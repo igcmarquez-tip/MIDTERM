@@ -1,0 +1,25 @@
+h4 {
+    font-family: monospace;
+}
+body {background: lightsteelblue;}
+.form-group{
+    padding:10px;
+    display: block;
+    width: 300px;
+    background-color: #f173e1;
+    border-style: solid;
+}
+.input-text{
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+.btn-block{
+    background-color: #2bdf3a;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.btn-block:hover{
+    background-color: #077010;
+}

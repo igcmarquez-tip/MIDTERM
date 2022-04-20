@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}Register{% endblock %}
+{% block content %}
+<h4>Register</h4>
+<form class="form-group">
+    <label for="firstname">First Name:</label><br>
+    <input type="text" id="firstname" class="input-text" placeholder="First name"><br>
+    <label for="lastname">Last Name:</label><br>
+    <input type="text" id="lastname" class="input-text" placeholder="Last name"><br>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" class="input-text" placeholder="Username"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" class="input-text" placeholder="Password:"><br>
+
+    <button type="submit" class="btn-block">Register</button>
+
+</form>
+{% endblock %}
