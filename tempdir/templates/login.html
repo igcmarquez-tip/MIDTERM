@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Log in{% endblock %}
+{% block content %}
+<h4>Log in Page</h4>
+<form class="form-group">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" class="input-text" placeholder="Username"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" class="input-text" placeholder="Password:"><br>
+
+    <button type="submit" class="btn-block">Login</button>
+    <button type="submit" class="btn-block"> <a href="/registration/">Register</a> </button>
+
+</form>
+{% endblock %}
